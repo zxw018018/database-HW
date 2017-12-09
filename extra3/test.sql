@@ -1,0 +1,10 @@
+insert into ec3_checking(id_count, account_id, balance, overdraft_limit) values (15, 'CH-15', 100, 50);
+insert into ec3_checking(id_count, account_id, balance, overdraft_limit) values (16, 'CH-16', 200, 50);
+insert into ec3_checking(id_count, account_id, balance, overdraft_limit) values (17, 'CH-17', 300, 100);
+insert into ec3_checking(id_count, account_id, balance, overdraft_limit) values (18, 'CH-18', 400, 0);
+select * from ec3_checking;
+insert into ec3_savings(id_count, account_id, balance, minimum_balance) values (1, 'SV-1', 760, 50);
+insert into ec3_savings(id_count, account_id, balance, minimum_balance) values (2, 'SV-2', 200, 200);
+insert into ec3_savings(id_count, account_id, balance, minimum_balance) values (3, 'SV-3', 150, 0);
+insert into ec3_savings(id_count, account_id, balance, minimum_balance) values (4, 'SV-4', 900, 70);
+select * from ec3_savings;
